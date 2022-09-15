@@ -57,15 +57,15 @@
         <h4> <strong> ¿Queres que nos comuniquemos con vos? </strong> </h4>
         <a id="contacto"></a>
         <p>Envianos tu consulta >>></p>
-        <form method="POST" action="codigo.php">
+        <form method="POST" action="./php/codigo.php"n enctype="multipart/form-data">
           <label for=""> Nombre <span>*</span><br>
-            <input name="nombre" required type="text">
+            <input name="nombre" required type="text" placeholder="Nombre completo">
           </label><br>
           <label for=""> Email <span>*</span><br>
-            <input name="email" required type="email">
+            <input name="email" required type="email" placeholder="example@mail.com">
           </label><br>
           <label for=""> Mensaje <span>*</span><br>
-            <textarea required name="comentarios"  cols="30" rows="10"></textarea> 
+            <textarea required name="comentarios"  cols="30" rows="10" placeholder="Su mensaje"></textarea>></textarea> 
           </label><br>
 
           <div>
