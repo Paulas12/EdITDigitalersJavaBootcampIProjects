@@ -10,9 +10,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     color: #333;
-    margin: 0;
 }
 
 footer, main, header, aside {
@@ -21,6 +20,9 @@ footer, main, header, aside {
 
 /*--------------------NavBar--------------------*/
 nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
     border-top: 2px solid rgb(252, 238, 33);
     padding: 20px;
@@ -49,20 +51,24 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#links, nav h1{
+#links, nav h1 {
     width: 33.33%;
     margin: 0;
 }
 
 /*--------------------Header--------------------*/
-header img{
+header img {
     width: 70%;
     margin-left: 30%;
 }
 
-header h1{
+header h1 {
     font-weight: 700;
     font-size: 41px;
+}
+
+#parrafo {
+    font-size: 32px;
 }
 
 /*--------------------Main--------------------*/
@@ -100,7 +106,7 @@ h1,h2,h3,h4 {
 
 h2,h3{
     font-size: 42.56px;
-    background-color: #fcee21;
+    background-color: #FCEE21;
 }
 
 
@@ -145,7 +151,6 @@ img{
 /*--------------------Paragraphs--------------------*/
 p {
     font-size: 28px;
-    text-transform: capitalize;
 }
 
 /*--------------------Links--------------------*/
@@ -154,12 +159,12 @@ a {
     text-decoration: none;
 }
 
-#links a{
+#links a {
     text-transform: capitalize;
 }
 
 #links a:hover {
-    text-decoration: underline ;
+    text-decoration: underline;
 }
 
 /*--------------------Lists--------------------*/
@@ -170,7 +175,7 @@ ul {
 }
 
 ol {
-    font-size: 2em;
+    font-size: 32px;
     font-weight: 400;
     list-style-position: inside;
 }
@@ -179,9 +184,14 @@ ol li {
     margin-bottom: 6%;
 }
 
+.encolumnar{ 
+    display: flex;
+    justify-content: space-between;
+}
+
 /*--------------------Colors--------------------*/
 .color{
-    background-color: rgb(252, 238, 33, 0.7);
+    background-color: rgba(252, 238, 33, 0.7);
     font-weight: 700;
     font-size: 44px;
 }
@@ -189,7 +199,7 @@ ol li {
 /*--------------------Forms--------------------*/
 form {
     margin: auto;
-    width: 50%;
+    width: 100%;
 }
 
 label{
@@ -205,7 +215,7 @@ input {
 }
 
 input[type="reset"], input[type="submit"]{
-    width: 49.5%;
+    width: 49.7%;
     background-color: black;
     color: white;
     height: 30px;
@@ -214,7 +224,7 @@ input[type="reset"], input[type="submit"]{
 input {
     border: 1px solid rgb(0,0,0);
     width: 100%;
-    height: 50px;
+    height: 40px;
 }
 
 textarea {
@@ -232,6 +242,7 @@ span {
 
 /*--------------------Aside--------------------*/
 aside img {
+    width: 8.33%;
     height: auto;
     
 }
@@ -253,7 +264,7 @@ aside div{
 
 a img {
     display:block;
-    margin:10px auto; 
+    margin:25px auto 5px auto; 
     width: 30%;
 }
 
